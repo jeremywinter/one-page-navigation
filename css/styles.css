@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color:#fff;
+	font-size: 4em;
+	font-weight: 500;
+	margin: auto;
+}
+h2 {
+	font-size: 2em;
+	font-weight: 300;
+	margin: auto;	
+}
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+}
+.child {
+	display: flex;	
+	flex: 50vw;
+	height: 50vw;
+}
+.hero {
+	background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+}
+/*sections*/
+.sec1 h2 {
+	color:#90A4AE;
+}
+.sec2 {
+	background-color: #ECEFF1;
+}
+.sec2 h2 {
+	color:#90A4AE;
+}
+.sec3 {
+	background-color: #CFD8DC;
+}
+.sec3 h2 {
+	color:#90A4AE;
+}
+.sec4 {
+	background-color: #B0BEC5;
+}
+.sec4 h2 {
+	color:#546E7A;
+}
+/******* luxbar *******/
+.luxbar-menu-light,
+.luxbar-menu-light .dropdown ul {
+  background-color: #fff;
+  color: #607D8B; }
+
+.luxbar-menu-light .active,
+.luxbar-menu-light .luxbar-item:hover {
+  background-color: #ECEFF1; }
+.luxbar-menu-light .luxbar-hamburger span,
+.luxbar-menu-light .luxbar-hamburger span::before,
+.luxbar-menu-light .luxbar-hamburger span::after {
+  background-color: #212121; }
